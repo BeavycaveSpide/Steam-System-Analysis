@@ -19,12 +19,12 @@ The underlying network maps a multi-tier utility framework operating across thre
 
 | Module | Core Function | Primary Output |
 | :--- | :--- | :--- |
-| **`ExergyAnalysis.m`** | Primary Thermodynamic Calculator | Calculates specific exergy flows and computes Carnot, Isentropic, and Second-Law efficiencies for the turbine. |
-| **`mass_balance.m`** | Plant Flow Auditor | Validates conservation of mass across headers and calculates how much steam is lost via vents versus utilized for city heating. |
-| **`Prv_injw_massflow.m`** | Valve & Pressure Diagnostic Tool | Generates a multi-tab dashboard tracking valve positions, automated pressure drops, and desuperheating spray water flows. |
-| **`condensate.m`** | Water Loop Accounting | Sums up the total volumetric return lines from industrial clients and isolates inventory errors in the degasser. |
-| **`Clinet_condensateBalance.m`** | Supply vs. Return Profiler | Plots the real-time moving average trends of steam supply against returned condensate during active plant windows. |
-| **`Digraph.m`** | Network Topology Visualizer | Renders a directed flowchart mapping the pipeline pathways from intake water to end-user sinks. |
+| **`ExergyAnalysis.m`** | Main Thermodynamic computations | Calculates specific exergy flows and computes Carnot, Isentropic, and Second-Law efficiencies for the turbine. |
+| **`mass_balance.m`** | Plant Flow Diagnostics | Validates conservation of mass across headers and calculates how much steam is lost via vents versus utilized for city heating. |
+| **`Prv_injw_massflow.m`** | Valve & Pressure Diagnostics | Generates a multi-tab dashboard tracking valve positions, automated pressure drops, and desuperheating spray water flows. |
+| **`condensate.m`** | Condensate Return Diagnostics | Sums up the total volumetric return lines from industrial clients and isolates inventory errors in the degasser. |
+| **`Clinet_condensateBalance.m`** | Supply vs. Return Diagnostics | Plots the real-time moving average trends of steam supply against returned condensate during active plant windows. |
+| **`Digraph.m`** | Network Topology | Renders a directed flowchart mapping the pipeline pathways from intake water to end-user sinks. |
 
 ---
 
