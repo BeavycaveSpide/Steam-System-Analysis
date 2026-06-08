@@ -1,6 +1,6 @@
-# Industrial Steam & Water Utility Network: Thermodynamic Modeling & Exergy Analysis
+# Industrial Steam & Condensate Utility Network: Thermodynamic Modeling & Exergy Analysis
 
-This repository contains a suite of MATLAB frameworks designed to perform mass, energy, and exergy balance diagnostics on an industrial multi-tier steam distribution network. The codebase processes high-resolution time-series data, filters out transient upsets via operational masking, and computes localized efficiencies to map energy degradation across plant components.
+This repository contains a suite of MATLAB frameworks designed to perform mass, energy, and exergy balance diagnostics on an industrial steam distribution network. The codebase processes high-resolution time-series data, filters out transient upsets via operational masking, and computes localized efficiencies to map energy degradation across plant components.
 
 These models provide the core analytical verification layer for the asset's technical performance report.
 
